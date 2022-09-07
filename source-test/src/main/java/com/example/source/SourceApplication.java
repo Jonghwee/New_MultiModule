@@ -12,5 +12,3 @@ public class SourceApplication {
     }
 
 }
-// postman 과 http로 쏠 때 ip가 다름
-// docker registry (도커 이미지 따로 보관)
