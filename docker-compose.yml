@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  source-test:
+    image: adoptopenjdk/openjdk11
+    build:
+      context: ./source
+    ports:
+      - "8881:8881"
+
+  target-test:
+    image: adoptopenjdk/openjdk11
+    build:
+      context: ./target
+    ports:
+      - "8882:8882"

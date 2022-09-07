@@ -1,8 +1,6 @@
 package com.example.source.Controller;
 
 import com.example.source.DTO.Member;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
